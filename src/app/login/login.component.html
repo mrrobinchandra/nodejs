@@ -1,0 +1,14 @@
+<div class="center">
+    <h1 class="color">Login</h1>
+   <form class="example-form" [formGroup]="userGroup">
+     <mat-form-field class="example-full-width">
+       <mat-label>Email</mat-label>
+       <input matInput formControlName="email" required>
+     </mat-form-field>
+     <mat-form-field class="example-full-width">
+       <mat-label>Password</mat-label>
+       <input matInput formControlName="password" required>
+     </mat-form-field>
+     </form>
+     <button mat-raised-button color="primary" (click)="Signin()">submit</button>
+   </div>
